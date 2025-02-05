@@ -1,7 +1,7 @@
 # ut-tasks
 Recruitment tasks
 
-Zadanie 1. - rozwiązanie na branchu virtual zoo
+Zadanie 1. - rozwiązanie na branchu virtual-zoo.
 Zaprojektuj system klas wirtualnego ZOO, który spełnia następujące wymagania:
 • Każde zwierze w ZOO ma swoje imię. Kiedy użyjemy obiektu zwierzęcia jako ciąg znaków,
 powinien on zwrócić gatunek oraz jego imię, np:
@@ -24,7 +24,7 @@ Ocenie podlega sposób podejścia do wykonania zadania, przejrzystość oraz czy
 możliwość ewentualnej rozbudowy.
 
 
-Zadanie 2. - rozwiązanie na branchu library
+Zadanie 2. - rozwiązanie na branchu library.
 Zaprojektuj schemat bazy danych dla PostgreSQL 14, który będzie przechowywał autorów
 książek, książki i recenzje, spełniający następujące wymagania:
 • Tabela autorów powinna zawierać pola imię i nazwisko,
