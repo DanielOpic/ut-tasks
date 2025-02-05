@@ -1,0 +1,9 @@
+{
+    "name": "virtualzoo/virtual-zoo",
+    "autoload": {
+        "psr-4": {
+            "Animal\\": "Animal/",
+            "Service\\": "Service/"
+        }
+    }
+}
