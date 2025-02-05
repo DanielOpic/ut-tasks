@@ -1,0 +1,48 @@
+INSERT INTO authors (first_name, last_name) VALUES
+('Marek', 'Nowicki'),
+('Ewa', 'Wiśniewska'),
+('Tomasz', 'Lisowski'),
+('Karolina', 'Dąbrowska'),
+('Robert', 'Lewandowski'),
+('Magdalena', 'Wójcik'),
+('Krzysztof', 'Mazur'),
+('Alicja', 'Szymańska'),
+('Paweł', 'Zalewski'),
+('Monika', 'Kubiak');
+
+INSERT INTO books (title, publication_year, isbn, author_id) VALUES
+('Programowanie w Pythonie', 2018, '9876543210', 3),
+('Java dla zaawansowanych', 2022, '2345678901', 3),
+('Wstęp do AI', 2021, '3456789012', 5),
+('Analiza danych', 2020, '4567890123', 6),
+('Uczenie maszynowe', 2019, '5678901234', 7),
+('Matematyka w IT', 2017, '6789012345', 8),
+('Bezpieczeństwo systemów', 2023, '7890123456', 9),
+('Big Data i chmura', 2021, '8901234567', 10),
+('Sieci komputerowe', 2016, '9012345678', 3),
+('Algorytmy i struktury danych', 2015, '0123456789', 4),
+('Cyberbezpieczeństwo', 2022, '1234509876', 5),
+('Testowanie oprogramowania', 2020, '2345610987', 6),
+('Architektura systemów', 2018, '3456721098', 7),
+('Podstawy C++', 2019, '4567832109', 8),
+('Nowoczesne technologie', 2023, '5678943210', 9);
+
+INSERT INTO reviews (book_id, rating, review_text) VALUES
+(1, 9, 'Bardzo dobra książka, świetnie napisane i łatwe do zrozumienia.'),
+(2, 7, 'Dobra książka, ale mogła być bardziej szczegółowa w niektórych miejscach.'),
+(3, 8, 'Bardzo ciekawa, z kilkoma cennymi wskazówkami.'),
+(4, 6, 'Książka nie jest zła, ale brakuje jej głębszej analizy tematu.'),
+(5, 10, 'Świetna pozycja! Niezbędna dla każdego, kto chce rozwinąć swoje umiejętności.'),
+(4, 5, 'Przeciętna książka, która nie wniosła nic nowego do tematu.'),
+(7, 9, 'Zdecydowanie polecam, świetnie napisana, pełna praktycznych przykładów.'),
+(8, 8, 'Dobra książka, ale kilka tematów mogło zostać lepiej wyjaśnionych.'),
+(3, 7, 'Książka jest ok, ale brakowało mi konkretnych przykładów.'),
+(10, 1, 'Bardzo słaba książka, nie spełniła moich oczekiwań.'),
+(11, 9, 'Naprawdę dobra, dobrze napisana, polecam każdemu!'),
+(10, 8, 'Dobra książka, ale nieco za dużo powtórzeń w tematach.'),
+(13, 7, 'Książka była średnia, kilka tematów było naprawdę dobrych, ale inne trochę nudne.'),
+(14, 2, 'Nie polecam, książka zawiera wiele błędów i nie jest zbyt pomocna.'),
+(15, 10, 'Świetna książka! Po przeczytaniu poczułem się o wiele pewniej w tym temacie.'),
+(1, 7, 'Dobrze napisana, ale kilka rozdziałów było niepotrzebnie rozwleczonych.'),
+(5, 8, 'Dobrze napisana książka, ale trochę brakuje jej bardziej zaawansowanych przykładów.'),
+(10, 9, 'Bardzo wartościowa książka, która pomoże każdemu w nauce tego tematu.');
